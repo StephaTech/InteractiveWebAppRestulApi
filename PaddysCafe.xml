@@ -2,66 +2,74 @@
 <cafemenu>
   <section name="Side Dishes">
     <entree vegetarian="true">
-      <item>Potato salad</item>
-      <price>4.95</price>
+      <item>The Shadow King-Maaza Mengiste</item>
+      <price>9.95</price>
     </entree>
     <entree>
-      <item>Paddy's French Fries</item>
-      <price>7.50</price>
-    </entree>
-    <entree>
-      <item>Huevos Rancheros</item>
+      <item>Girl, Woman, Other - Bernardine Evaristo</item>
       <price>8.50</price>
+    </entree>
+    <entree>
+      <item>My Sister, the Serial Killer - Oyinkan Braithwaite</item>
+      <price>10.00</price>
+    </entree>
+    <entree>
+      <item>Queenie - Candice Carty -Williams</item>
+      <price>5.50</price>
     </entree>
   </section>
   <section name="Breakfast">
     <entree>
-      <item>Two Eggs, any style</item>
+      <item>The Devil That Danced on the Water-Aminatta Forna</item>
       <price>4.99</price>
     </entree>
     <entree>
-      <item>Paddys's Famous Peppers and Eggs</item>
-      <price>8.29</price>
-    </entree>
-    <entree vegetarian="true">
-      <item>Bowl of fruit</item>
+      <item>In Search of Black History with Bonnie Greer-Bonnie Greer</item>
       <price>6.99</price>
-    </entree>
-    <entree vegetarian="true">
-      <item>French toast</item>
-      <price>5.25</price>
-    </entree>
-    <entree>
-      <item>Croissant</item>
-      <price>3.99</price>
     </entree>
   </section>
   <section name="Lunch">
     <entree>
-      <item>Grilled Chicken Sandwich</item>
-      <price>7.99</price>
+      <item>The Old Drift-Namwali Serpell</item>
+      <price>10.99</price>
     </entree>
     <entree>
-      <item>Tuna Melt</item>
+      <item>Homegoing - Yaa Gyasi</item>
       <price>6.99</price>
     </entree>
     <entree vegetarian="true">
-      <item>Pasta Salad</item>
-      <price>7.39</price>
+      <item>Americanah -  Chimamanda Ngozi Adichie</item>
+      <price>9.39</price>
+    </entree>
+    <entree vegetarian="true">
+      <item>Transparent City- Ondjaki</item>
+      <price>5.99</price>
+    </entree>
+    <entree>
+      <item>The Blessed Girl-Angela Makholwa</item>
+      <price>3.99</price>
     </entree>
   </section>
   <section name="Dinner">
     <entree>
-      <item>Ribeye Steak</item>
-      <price>19.99</price>
+      <item>The Hate U give - Angie Thomas</item>
+      <price>8.00</price>
     </entree>
     <entree>
-      <item>Chilean Sea Bass</item>
-      <price>12.99</price>
+      <item>Clap when you Land- Elizabeth Acevedo</item>
+      <price>7.38</price>
     </entree>
-    <entree vegetarian="true">
-      <item>Linguini with Grilled Porcini Mushroom</item>
-      <price>7.79</price>
+    <entree>
+      <item>The Poet X - Elizabeth Acevedo</item>
+      <price>7.50</price>
+    </entree>
+    <entree>
+      <item>You should see me in a crown - Leah Johnson </item>
+      <price>6.60</price>
+    </entree>
+    <entree>
+      <item>With the Fire on High - Elizabeth Acevedo</item>
+      <price>7.00</price>
     </entree>
   </section>
 </cafemenu>
