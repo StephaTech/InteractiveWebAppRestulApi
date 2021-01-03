@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <cafemenu>
-  <section name="Side Dishes">
+  <section name="Best-Sellers">
     <entree vegetarian="true">
       <item>The Shadow King-Maaza Mengiste</item>
       <price>9.95</price>
@@ -18,7 +18,7 @@
       <price>5.50</price>
     </entree>
   </section>
-  <section name="Breakfast">
+  <section name="Biographies-Memoirs">
     <entree>
       <item>The Devil That Danced on the Water-Aminatta Forna</item>
       <price>4.99</price>
@@ -28,7 +28,7 @@
       <price>6.99</price>
     </entree>
   </section>
-  <section name="Lunch">
+  <section name="Literature-Fiction">
     <entree>
       <item>The Old Drift-Namwali Serpell</item>
       <price>10.99</price>
@@ -50,7 +50,7 @@
       <price>3.99</price>
     </entree>
   </section>
-  <section name="Dinner">
+  <section name="Teen-Young Adult">
     <entree>
       <item>The Hate U give - Angie Thomas</item>
       <price>8.00</price>
