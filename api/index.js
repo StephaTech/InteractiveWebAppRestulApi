@@ -1,18 +1,33 @@
 //dependencies,references
 const http = require('http');
 const axios = require('axios');
+logger = require('morgan');
+cors = require('cors');
+express = require('express');
+bodyParser = require('body-parser');
 
 //INSTANCES listen and push
-//var app = express();
+var app = express();
 var port = 8000;//port default
 //dotenv.config();
 
- http.createServer((req, res)=>{
-//res.write("Hello world, Helo Steph you got it right this time!!!uhuuUu \n"); // write a response
-res.write(users.join("\n"));//displays the list of users on the page/SEPARATOR
-// //res.write(emails.join("\n\n"));
-res.end(); //end the response
-}).listen(8000); // listen for requests on port 8000
+app.use(bodyParser.json())//JSON /first
+
+
+//ROUTE
+app.get('/hello/:foo/:bar', (req, res) => {//type  on the browse exactly what you wrote here
+    res.json({message: "Hello yahh", data: [
+        req.params.foo,
+        req.params.bar
+    ]});
+});
+
+//  http.createServer((req, res)=>{
+// //res.write("Hello world, Helo Steph you got it right this time!!!uhuuUu \n"); // write a response
+// res.write(users.join("\n"));//displays the list of users on the page/SEPARATOR
+// // //res.write(emails.join("\n\n"));
+// res.end(); //end the response
+// }).listen(8000); // listen for requests on port 8000
 
 // let users = [];//names of users will be stored here
 // //axios.get("https://jsonplaceholder.typicode.com/users")//sending get request
@@ -38,3 +53,7 @@ let users = ["l"];//names of users will be stored here
         console.log(error);
     }
 }) ();
+
+app.listen(port, function(err){
+    console.log('Listening on port: ' + port);//print outuput por runner
+});
