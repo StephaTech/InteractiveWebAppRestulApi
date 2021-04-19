@@ -2,18 +2,14 @@
 const express = require('express'),
 router = express.Router();
 
-//ROUTE
-router.get('/hello/:foo/:bar', (req, res) => {//type  on the browse exactly what you wrote here
-    res.json({message: "Hello yahh", data: [
-        req.params.foo,
-        req.params.bar
-    ]});
-});
+//reference into routes from the request logic intem-controller
+var itemCtrl = require('./item-controller');
 
-//post using postman//is made to send some data
-router.post('/hello', (req, res) => {
-    res.json({result: 'Post was sent',data: req.body});
-});
+router.get('/hello', itemCtrl.getWorld);
+
+router.get('/hello/:foo/:bar', itemCtrl.getWorldParams);
+
+router.post('/hello', itemCtrl.postWorld);
 
 //EXPORTS
 module.exports = router;
