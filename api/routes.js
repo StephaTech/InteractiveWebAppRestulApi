@@ -17,9 +17,9 @@ bookCtrl = require('./book-controller');
 
 router.post('/books', bookCtrl.createBook);//CREATE USER/ books are the table find on the collection
 router.get('/books', bookCtrl.getBooks);//READ all
-// router.get('/users/:id', userCtrl.getUser);//FIND USER BY id
-// router.put('/users/:id', userCtrl.updateUser);//UPDATES USER BY id
-// router.delete('/users/:id', userCtrl.deleteUser);//DELETE USER BY id
+router.get('/books/:id', bookCtrl.getBook);//FIND USER BY id
+router.put('/books/:id', bookCtrl.updateBook);//UPDATES USER BY id
+router.delete('/books/:id', bookCtrl.deleteBook);//DELETE USER BY id
 
 
 //EXPORTS
