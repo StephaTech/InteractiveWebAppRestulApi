@@ -4,7 +4,7 @@ var Book = require('./models/book')//Book variable created / user class created
 //CODE for create a  new book
 exports.createBook = function(req, res) { 
     var newbook = new Book(req.body);//newbook variable created
-    newbook.save(function (err, user) { 
+    newbook.save(function (err, book) { 
         if (err) { 
             res.status (400).json(err);
         }
